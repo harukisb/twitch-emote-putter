@@ -1,0 +1,20 @@
+{
+  "name": "Twitch Emoji",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/osushiek", 
+        "https://www.twitch.tv/harukisb",
+        "https://www.twitch.tv/kirbis_044"],
+      "css": ["css/style.css"],
+      "js": ["js/jquery.min.js", "js/script.js"]
+    }
+  ]
+}
